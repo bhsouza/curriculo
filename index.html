@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="toggle" onclick="toggleMenu()"></div>
+
+    <section class="aboutMe" id="home">
+        <div class="imgProfile">
+            <img src="img/perfil.jpg" alt="Foto de Breno">
+        </div>
+        <div class="contentHome">
+            <h5 class="logoCurriculum">Currículo</h5>
+            <div>
+                <h4><span>Olá Mundo</span>, eu sou</h4>
+                <h2>Breno Henrique</h2>
+                <h4>Eu sou estudante de Engenharia de Software</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis mollitia odio nisi architecto eaque
+                    inventore quae debitis sint. Ratione quia esse fuga excepturi? Iusto pariatur distinctio at fugiat,
+                    possimus corrupti.</p>
+                <a href="#formation" class="button">Formação</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home">Home/Sobre Mim</a></li>
+            <li><a href="#formation">Formação</a></li>
+            <li><a href="#hardSoftSkills">Hard/Soft Skills</a></li>
+            <li><a href="#socialMedia">Informações/Redes Sociais</a></li>
+        </ul>
+    </div>
+
+    <section class="formation" id="formation">
+        <h2>Formação</h2>
+        <div class="formationInfos">
+            <div class="infoContent">
+                <img src="img/logo-objetivo.png" alt="">
+                <div>
+                    <span>Ensino Médio (2017 - 2019)</span>
+                    <span>Centro Educacional Objetivo</span>
+                </div>
+            </div>
+            <div class="infoContent">
+                <img src="img/logo-unb.png" alt="">
+                <div>
+                    <span>Ensino Superior (2020 - 2026)</span>
+                    <span>Universidade de Brasília: Engenharias(Em curso)</span>
+                </div>
+            </div>
+            <div class="infoContent">
+                <img class="orcImage" src="img/logo-orcestra.png" alt="">
+                <div>
+                    <span>Trainee (2021 - 2021)</span>
+                    <span>Orc'estra Gamificação: Trainee(Em curso)</span>
+                </div>
+            </div>
+            <a href="#hardSoftSkills" class="buttonBlack">Hard/Soft Skills</a>
+        </div>
+    </section>
+
+    <section class="hardSoftSkills" id="hardSoftSkills">
+        <h2>Hard/Soft Skills</h2>
+        <div class="hardAndSoft">
+            <div class="contentHS">
+                <h3>Hard Skills</h3>
+                <div class="skill">
+                    <img src="img/icons8-html-5-96.png" alt="">
+                    <span><span>Nível</span> - Intermediário</span>
+                </div>
+                <div class="skill">
+                    <img src="img/icons8-css3-96.png" alt="">
+                    <span><span>Nível</span> - Intermediário</span>
+                </div>
+                <div class="skill">
+                    <img src="img/icons8-javascript-96.png" alt="">
+                    <span><span>Nível</span> - Intermediário</span>
+                </div>
+            </div>
+            <div class="contentHS">
+                <h3>Soft Skills</h3>
+                <div class="skill">
+                    <img src="https://img.icons8.com/color/96/000000/trophy.png" />
+                    <div>
+                        <span>Persistência</span>
+                        <span>Vejo um desafio e tento até conseguir</span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="https://img.icons8.com/fluency/96/000000/creativity.png" />
+                    <div>
+                        <span>Criativo</span>
+                        <span>Criatividade na hora do desenvolvimento</span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="https://img.icons8.com/color/96/000000/teamwork--v1.png" />
+                    <div>
+                        <span>Trabalho em equipe</span>
+                        <span>Boa adaptação no trabalho em equipe</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#socialMedia" class="buttonWhite">Redes Sociais</a>
+    </section>
+
+    <section class="socialMedia" id="socialMedia">
+        <h2>Informações</h2>
+        <div class="personalInformation">
+            <h4>Rua 03 Chácara 90, Vicente Pires, Brasília/DF, 72005-805</h4>
+            <h4>20 anos | (61)98653-8298 | breno.hs@outlook.com</h4>
+        </div>
+        <h2>Redes Sociais</h2>
+        <div class="iconSocials">
+            <a href="https://www.facebook.com/breno.henrique.98284" target="_blank"> <i
+                    class="fa fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/bh.souza_" target="_blank"> <i class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/brenohsouza" target="_blank"> <i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/bhsouza" target="_blank"> <i class="fa fa-github fa-2x"></i></a>
+            <a href="https://wa.me/5561986538298" target="_blank"> <i class="fa fa-whatsapp fa-2x"></i></a>
+        </div>
+        <a href="#home" class="buttonHome">Home</a>
+    </section>
+
+    <footer class="footer">
+        Desenvolvido por Breno
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
